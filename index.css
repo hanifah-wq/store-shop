@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+/* Style buat sidebar */
+
+.sidebar {
+    background-color: lightpink;
+    color: rgb(186, 19, 72);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar-lop {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sidebar-links {
+    list-style: none;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sidebar-links {
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+.sidebar-links li {
+    width: 100%;
+}
+.sidebar-links a {
+color: aliceblue;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 15px 20px;
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+.sidebar-links a:hover {
+    background-color: rgb(164, 32, 78);
+}
+/* Isi content */
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
+h1{
+    color: rgb(186, 19, 72);
+}
